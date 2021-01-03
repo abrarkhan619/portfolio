@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- navbar section -->
+    <nav class="navbar">
+        <div class="navbar__bars" id="mobile-menu">
+            <i class="fas fa-bars navbar__bars--icon"></i>
+        </div>
+        <div class="navbar__cross" id="mobile-menu">
+            <i class="fas fa-times navbar__bars--cross"></i>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#portfolio" class="navbar__links" id="portfolio-page">Portfolio</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#contact" class="navbar__links" sid="contact-page">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Hi, I'm <span class="hero__heading--color">Abrar</span>.</h1>
+            <h2 class="hero__job">Web Developer</h2>
+            <p class="hero__description">See my work</p>
+            <a href="#skills"><i class="fas fa-arrow-circle-down hero__arrow"></i></a>
+            <!-- <i class="fas fa-arrow-circle-down hero__arrow"></i> -->
+        </div>
+    </section>
+    
+
+    <!-- skills section -->
+    <section class="skills" id="skills">
+    <div class="skills__container" >
+        <h1 class="skills__heading">Skills</h1>
+        <div class="skills__wrapper">
+            <div class="skills__card">
+                <i class="fab fa-html5 skills__card--logo"></i>
+                <p class="skills__card--name">HTML5</p>
+            </div>
+            <div class="skills__card">
+                <i class="fab fa-css3 skills__card--logo"></i>
+                <p class="skills__card--name">CSS3</p>
+            </div>
+            <div class="skills__card">
+                <i class="fab fa-js skills__card--logo"></i>
+                <p class="skills__card--name">Javascript</p>
+            </div>
+            <div class="skills__card">
+                <i class="fab fa-react skills__card--logo"></i>
+                <p class="skills__card--name">React</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+    <div class="portfolio__container">
+        <h1 class="portfolio__heading">Portfolio</h1>
+        <div class="portfolio__wrapper">
+
+            <div class="portfolio__card">
+                <p class="portfolio__card--title">Holidays calculator</p>
+                <div class="portfolio__images">
+                    <img class="portfolio__images--img" src="/images/holidays-calc.png" alt="">
+                </div>
+                <div class="portfolio__card--links">
+                    <a href="https://abrarkhan619.github.io/holidays-calculator/" target="_blank" class="portfolio__card--preview portfolio__card--btn">Preview <i class="far fa-eye portfolio__card--icons"></i></a>
+                    <a href="https://github.com/abrarkhan619/holidays-calculator" target="_blank" class="portfolio__card--github portfolio__card--btn"><i class="fab fa-github portfolio__card--icons"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <p class="portfolio__card--title">Music player</p>
+                <div class="portfolio__images">
+                    <img class="portfolio__images--img" src="/images/music-player.png" alt="">
+                </div>
+                <div class="portfolio__card--links">
+                    <a href="https://abrarkhan619.github.io/music-player/" target="_blank" class="portfolio__card--preview portfolio__card--btn">Preview <i class="far fa-eye portfolio__card--icons"></i></a>
+                    <a href="https://github.com/abrarkhan619/music-player" target="_blank" class="portfolio__card--github portfolio__card--btn"><i class="fab fa-github portfolio__card--icons"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <p class="portfolio__card--title">Rugby scoreboard</p>
+                <div class="portfolio__images">
+                    <img class="portfolio__images--img" src="/images/scoreboard.png" alt="">
+                </div>
+                <div class="portfolio__card--links">
+                    <a href="https://abrarkhan619.github.io/rugby-scoreboard/" target="_blank" class="portfolio__card--preview portfolio__card--btn">Preview <i class="far fa-eye portfolio__card--icons"></i></a>
+                    <a href="https://github.com/abrarkhan619/rugby-scoreboard" target="_blank" class="portfolio__card--github portfolio__card--btn"><i class="fab fa-github portfolio__card--icons"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <p class="portfolio__card--title">React todo list</p>
+                <div class="portfolio__images">
+                    <img class="portfolio__images--img" src="/images/react-todo.png" alt="">
+                </div>
+                <div class="portfolio__card--links">
+                    <a href="https://abrar-todo.netlify.app/" target="_blank" class="portfolio__card--preview portfolio__card--btn">Preview <i class="far fa-eye portfolio__card--icons"></i></a>
+                    <a href="https://github.com/abrarkhan619/react-todo" target="_blank" class="portfolio__card--github portfolio__card--btn"><i class="fab fa-github portfolio__card--icons"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <p class="portfolio__card--title">Dice game</p>
+                <div class="portfolio__images">
+                    <img class="portfolio__images--img" src="/images/dice-game.png" alt="">
+                </div>
+                <div class="portfolio__card--links">
+                    <a href="https://abrarkhan619.github.io/Dice-Game/" target="_blank" class="portfolio__card--preview portfolio__card--btn">Preview <i class="far fa-eye portfolio__card--icons"></i></a>
+                    <a href="https://github.com/abrarkhan619/Dice-Game" target="_blank" class="portfolio__card--github portfolio__card--btn"><i class="fab fa-github portfolio__card--icons"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="portfolio__card">
+                <p class="portfolio__card--title">Zengarden</p>
+                <div class="portfolio__images">
+                    <img class="portfolio__images--img" src="/images/zengarden.png" alt="">
+                </div>
+                <div class="portfolio__card--links">
+                    <a href="https://abrarkhan619.github.io/Zengarden/" target="_blank" class="portfolio__card--preview portfolio__card--btn">Preview <i class="far fa-eye portfolio__card--icons"></i></a>
+                    <a href="https://github.com/abrarkhan619/Zengarden" target="_blank" class="portfolio__card--github portfolio__card--btn"><i class="fab fa-github portfolio__card--icons"></i> GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h1 class="contact__heading">Contact me:</h1>
+        <div class="contact__wrapper">
+            <p class="contact__details">Email: abrar.khan916@gmail.com</p>
+            <p class="contact__details">Phone: +44 7912 345678</p>
+        </div>
+    </section>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
