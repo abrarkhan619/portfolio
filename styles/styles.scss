@@ -47,11 +47,6 @@
             &.hide {
                 display: none;
             }
-
-            // position: absolute;
-            // top: 20%;
-            // right: 5%;
-            // transform: translate(5%, 20%);
         }
     }
 
@@ -69,11 +64,6 @@
                 margin-left: auto;
                 margin-right: 1rem;
             }
-
-            // position: absolute;
-            // top: 20%;
-            // right: 5%;
-            // transform: translate(5%, 20%);
         }
     }
 
@@ -144,18 +134,9 @@
     }
 }
 
-// #mobile-menu {
-//     position: absolute;
-//     top: 20%;
-//     right: 5%;
-//     transform: translate(5%, 20%);
-// }
-
 .hero {
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
-    // padding: 200px 0;
-    // height: auto;
 
     &__container {
         display: flex;
@@ -192,9 +173,9 @@
 
     &__job {
         font-size: 4rem;
-        background: #ee0979;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #ee0979;
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        background: linear-gradient(to right, #ff6a00, #ee0979);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -220,9 +201,9 @@
     &__arrow {
         color: #fff;
         font-size: 3rem;
-        background: #ee0979;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #ee0979;
+        background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+        background: linear-gradient(to right, #ff6a00, #ee0979);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -238,20 +219,17 @@
 .skills {
     color: #fff;
     background-color: #131313;
-    // padding: 10rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    ///
 
     &__heading {
         text-align: center;
         font-size: 3rem;
         margin-bottom: 30px;
-        //gradient color
         background: #ee0979;
         background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
         background: linear-gradient(to right, #ff6a00, #ee0979);
@@ -286,7 +264,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        // column-gap: 1000px;
 
         &--logo {
             font-size: 5rem;
@@ -300,7 +277,6 @@
 
 .portfolio {
     background: #000000;
-    // background: linear-gradient(to right, #161616, #000000);
     padding: 25px 0 100px 0;
     
 
@@ -332,7 +308,6 @@
         justify-content: center;
         column-gap: 30px;
         row-gap: 30px;
-        // max-width: 1280px;
 
         @media screen and (max-width: 1000px) {
             grid-template-columns: 1fr 1fr;
